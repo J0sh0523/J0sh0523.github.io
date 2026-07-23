@@ -11,7 +11,7 @@ This is a showcase of my cybersecurity projects and code I've created.
 ### Header 3
 
 ```ps
-Write-Host "Hello world"
+gci "C:\temp\list.txt" | Select-Object {$_ -eq "Hello world"} | Write-Host $_
 ```
 
 ```ruby
