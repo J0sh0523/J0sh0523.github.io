@@ -1,10 +1,6 @@
-Text can be **bold**, _italic_, ~~strikethrough~~ or `keyword`.
+J0sh0523's GitHub Portfolio
 
 [Link to my GitHub](https://github.com/J0sh0523).
-
-There should be whitespace between paragraphs.
-
-There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.
 
 # Projects
 
