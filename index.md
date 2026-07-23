@@ -1,7 +1,3 @@
----
-layout: default
----
-
 Text can be **bold**, _italic_, ~~strikethrough~~ or `keyword`.
 
 [Link to my GitHub](https://github.com/J0sh0523).
