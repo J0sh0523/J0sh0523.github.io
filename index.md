@@ -1,7 +1,3 @@
-J0sh0523's GitHub Portfolio
-
-[Link to my GitHub](https://github.com/J0sh0523).
-
 # Projects
 
 This is a showcase of my cybersecurity projects and code I've created.
@@ -14,12 +10,8 @@ This is a showcase of my cybersecurity projects and code I've created.
 
 ### Header 3
 
-```js
-// Javascript code with syntax highlighting.
-var fun = function lang(l) {
-  dateformat.i18n = require('./lang/' + l)
-  return true;
-}
+```ps
+Write-Host "Hello world"
 ```
 
 ```ruby
