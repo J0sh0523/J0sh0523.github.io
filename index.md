@@ -13,6 +13,7 @@ This is a showcase of my cybersecurity projects and code I've created.
 
 ![TestVMCreation](Project_Photos/TestVM_Creation.png)
 ![DetectionRules](Project_Photos/Detection_Rules.png)
+![IncidentGeneration](Project_Photos/Incident_Generation.png)
 
 ### Header 5
 
