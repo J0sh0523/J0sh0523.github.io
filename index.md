@@ -78,11 +78,11 @@ end
 
 ### Small image
 
-![Octocat](https://github.githubassets.com/images/icons/emoji/octocat.png](https://github.com/J0sh0523/J0sh0523.github.io/blob/main/Project%20Photos/Heatmap%20Workbook.png)
+![Octocat](https://github.com/J0sh0523/J0sh0523.github.io/blob/main/Project%20Photos/Heatmap%20Workbook.png)
 
 ### Large image
 
-![Branching](https://guides.github.com/activities/hello-world/branching.png](https://github.com/J0sh0523/J0sh0523.github.io/blob/main/Project%20Photos/Heatmap%20Workbook.png)
+![Branching](https://github.com/J0sh0523/J0sh0523.github.io/blob/main/Project%20Photos/Heatmap%20Workbook.png)
 
 
 ### Definition lists can be used with HTML syntax.
