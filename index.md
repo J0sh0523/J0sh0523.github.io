@@ -15,11 +15,11 @@ This is a showcase of my cybersecurity projects and code I've created.
 ![DetectionRules](Project_Photos/Detection_Rules.png)
 ![IncidentGeneration](Project_Photos/Incident_Generation.png)
 
-### Header 5
+### Honeypot Results
 
-1.  This is an ordered list following a header.
-2.  This is an ordered list following a header.
-3.  This is an ordered list following a header.
+Created a workbook with a heatmap to track IPs and locations of attempted RDP connections
+
+![Heatmap_Workbook](Project_Photos/Heatmap_Workbook.png)
 
 ###### Header 6
 
