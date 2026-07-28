@@ -2,31 +2,15 @@
 
 This is a showcase of my cybersecurity projects and code I've created.
 
-## Header 2
+## Virtual SOC in Azure
 
-> This is a blockquote following a header.
->
-> When something is important enough, you do it even if the odds are not in your favor.
+### SOC Setup
 
-### Header 3
+*   Signed up for Azure free trial with $200 in free credits.
+*   Created a Standard D2lds v6 (2 vcpus, 4 GiB memory) virtual machine running Windows 11 and port 3389 open.
+*   Configured Microsoft Sentinel in a log analytics workspace with Windows Security Events via AMA as my Data Connector.
 
-```ps
-gci "C:\temp\list.txt" | Select-Object {$_ -eq "Hello world"} | Write-Host $_
-```
-
-```ruby
-# Ruby code with syntax highlighting
-GitHubPages::Dependencies.gems.each do |gem, version|
-  s.add_dependency(gem, "= #{version}")
-end
-```
-
-#### Header 4
-
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
-
+![TestVMCreation](Project_Photos/TestVM_Creation.png)
 ##### Header 5
 
 1.  This is an ordered list following a header.
