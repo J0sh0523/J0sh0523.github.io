@@ -6,12 +6,15 @@ This is a showcase of my cybersecurity projects and code I've created.
 
 ### SOC Setup
 
-*   Signed up for Azure free trial with $200 in free credits.
-*   Created a Standard D2lds v6 (2 vcpus, 4 GiB memory) virtual machine running Windows 11 and port 3389 open.
+*   Signed up for an Azure free trial with $200 in free credits.
+*   Created a honeypot Standard D2lds v6 (2 vcpus, 4 GiB memory) virtual machine running Windows 11 and port 3389 open.
 *   Configured Microsoft Sentinel in a log analytics workspace with Windows Security Events via AMA as my Data Connector.
+*   Setup a detection rule in Sentinel with KQL to detect event 4625 (Attempted RDP sign in) and event 4624 
 
 ![TestVMCreation](Project_Photos/TestVM_Creation.png)
-##### Header 5
+![DetectionRules](Project_Photos/Detection_Rules.png)
+
+### Header 5
 
 1.  This is an ordered list following a header.
 2.  This is an ordered list following a header.
