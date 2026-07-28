@@ -17,7 +17,22 @@ This is a showcase of my cybersecurity projects and code I've created.
 
 ### Honeypot Results
 
-Created a workbook with a heatmap to track IPs and locations of attempted RDP connections
+Created a workbook with a heatmap to track IPs and locations of attempted RDP connections using KQL to sort events
+
+```Kusto
+SecurityEvent
+| where EventID == 4625
+| where isnotempty(IpAddress) and IpAddress !in ("127.0.0.1", "::1", "-")
+| summarize Count = count() by IpAddress
+| extend GeoInfo = geo_info_from_ip_address(IpAddress)
+| extend Latitude = toreal(GeoInfo.latitude)
+| extend Longitude = toreal(GeoInfo.longitude)
+| extend Country = tostring(GeoInfo.country)
+| where isnotempty(Latitude) and isnotempty(Longitude) and isnotempty(Country)
+| where Latitude between (-90.0 .. 90.0) and Longitude between (-180.0 .. 180.0)
+| project Latitude, Longitude, Count, Country, IpAddress
+| order by Count desc
+```
 
 ![Heatmap_Workbook](Project_Photos/Heatmap_Workbook.png)
 
