@@ -78,7 +78,7 @@ end
 
 ### Small image
 
-![Octocat](main/Project%20Photos/Heatmap%20Workbook.png)
+![Octocat](J0sh0523.github.io/Project Photos/Heatmap 20Workbook.png)
 
 ### Large image
 
