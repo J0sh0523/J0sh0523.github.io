@@ -9,7 +9,7 @@ This is a showcase of my cybersecurity projects and code I've created.
 *   Signed up for an Azure free trial with $200 in free credits.
 *   Created a honeypot Standard D2lds v6 (2 vcpus, 4 GiB memory) virtual machine running Windows 11 and port 3389 open.
 *   Configured Microsoft Sentinel in a log analytics workspace with Windows Security Events via AMA as my Data Connector.
-*   Setup a detection rule in Sentinel with KQL to detect event 4625 (Attempted RDP sign in) and event 4624 
+*   Created detection rules in Sentinel with KQL to detect event 4625 (Attempted RDP sign in) and event 4624 (Successful RDP sign in) and generate incidents
 
 ![TestVMCreation](Project_Photos/TestVM_Creation.png)
 ![DetectionRules](Project_Photos/Detection_Rules.png)
