@@ -45,15 +45,15 @@ SecurityEvent
 
 ![Docker_Setup](Project_Photos/Docker_Setup.png)
 
-* Installed MISP onto the Docker image running a web GUI
+* Installed the MISP image on the Docker container and accessed the web GUI
 
 ![MISP_Setup](Project_Photos/MISP_Setup.png)
 ![MISP_Online](Project_Photos/MISP_Online.png)
 
-*   Imported Threat Intelligence into the MISP instance
+*   Imported threat intelligence feeds into the MISP instance
 
 ![Importing_IoC](Project_Photos/Importing_IoC.png)
 
-*   Created an Azure function to send threat indicators to Sentinel every two hours via Python using the MISP API key and environment IDs from an Azure Key Vault
+*   Created an Azure function to send threat indicators to Sentinel every two hours via Python using the MISP API key and environment IDs from an Azure Key Vault while disabling events with over 10,000 attributes to avoid exceeding rate limit.
 
 ![Azure_Function](Project_Photos/Azure_Function.png)
