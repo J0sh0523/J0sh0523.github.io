@@ -2,22 +2,23 @@
 
 This is a showcase of my cybersecurity projects and code I've created.
 
+* * *
 ## Virtual SOC in Azure
 
-### SOC Setup
+### Honeypot Setup with Detection
 
 *   Signed up for an Azure free trial with $200 in free credits.
-*   Created a honeypot Standard D2lds v6 (2 vcpus, 4 GiB memory) virtual machine running Windows 11 and port 3389 open.
-*   Configured Microsoft Sentinel in a log analytics workspace with Windows Security Events via AMA as my Data Connector.
-*   Created detection rules in Sentinel with KQL to detect event 4625 (Attempted RDP sign in) and event 4624 (Successful RDP sign in) and generate incidents
-
+*   Created a D2lds v6 (2 vcpus, 4 GiB memory) virtual machine running Windows 11 and port 3389 open.
 ![TestVMCreation](Project_Photos/TestVM_Creation.png)
+
+*   Configured Microsoft Sentinel in a log analytics workspace with Windows Security Events via AMA as a Data Connector.
+*   Created detection rules in Sentinel with KQL to detect event 4625 (Attempted RDP sign in) and event 4624 (Successful RDP sign in) to generate incidents in Sentinel
 ![DetectionRules](Project_Photos/Detection_Rules.png)
 ![IncidentGeneration](Project_Photos/Incident_Generation.png)
 
 ### Honeypot Results
 
-Created a workbook with a heatmap to track IPs and locations of attempted RDP connections using KQL to sort events
+*   Created a heatmap to track IPs and locations of attempted RDP connections using KQL to sort events
 
 ```Kusto
 SecurityEvent
@@ -36,15 +37,10 @@ SecurityEvent
 
 ![Heatmap_Workbook](Project_Photos/Heatmap_Workbook.png)
 
-###### Header 6
+### MISP Threat Intelligence Feed
 
-| head1        | head two          | three |
-|:-------------|:------------------|:------|
-| ok           | good swedish fish | nice  |
-| out of stock | good and plenty   | nice  |
-| ok           | good `oreos`      | hmm   |
-| ok           | good `zoute` drop | yumm  |
-
+*   Created a new Linux (Ubuntu 24.04) server and installed Docker
+*   
 ### There's a horizontal rule below this.
 
 * * *
