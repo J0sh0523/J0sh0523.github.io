@@ -53,3 +53,7 @@ SecurityEvent
 *   Imported Threat Intelligence into the MISP instance
 
 ![Importing_IoC](Project_Photos/Importing_IoC.png)
+
+*   Created an Azure function to send threat indicators to Sentinel via Python script
+
+![Azure_Function](Project_Photos/Azure_Function.png)
