@@ -39,7 +39,7 @@ SecurityEvent
 
 ![Heatmap_Workbook](Project_Photos/Heatmap_Workbook.png)
 
-### MISP Threat Intelligence Feed with Sentinel Integration
+### MISP Threat Intelligence Feed Integrated with Sentinel
 
 *   Created a new Linux (Ubuntu 24.04) server and installed Docker
 
