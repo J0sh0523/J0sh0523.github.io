@@ -54,6 +54,6 @@ SecurityEvent
 
 ![Importing_IoC](Project_Photos/Importing_IoC.png)
 
-*   Created an Azure function to send threat indicators to Sentinel via Python script using the MISP API key and Azure IDs from an Azure KeyVault
+*   Created an Azure function to send threat indicators to Sentinel every two hours via Python using the MISP API key and environment IDs from an Azure Key Vault
 
 ![Azure_Function](Project_Photos/Azure_Function.png)
