@@ -56,4 +56,4 @@ SecurityEvent
 
 *   Created an Azure function to send threat indicators to Sentinel every two hours via Python using the MISP API key and environment IDs from an Azure Key Vault while disabling events with over 10,000 attributes to avoid exceeding rate limit.
 
-![Azure_Function](Project_Photos/Azure_Function.png)
+![Sentinel_Function](Project_Photos/Sentinel_Function.png)
