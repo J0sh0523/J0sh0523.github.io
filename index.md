@@ -58,6 +58,6 @@ SecurityEvent
 
 ![Sentinel_Function](Project_Photos/Sentinel_Function.png)
 
-*   After a while, Sentinel shows 282,328 Threat Intelligence Indicators
+*   After a while, Sentinel shows 282,328 Threat Intelligence Indicators, which can now be used with detection rules
 
 ![Threat_Intelligence](Project_Photos/Threat_Intelligence.png)
