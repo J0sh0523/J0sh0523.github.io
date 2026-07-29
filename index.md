@@ -54,6 +54,10 @@ SecurityEvent
 
 ![Importing_IoC](Project_Photos/Importing_IoC.png)
 
-*   Created an Azure function to send threat indicators to Sentinel every two hours via Python using the MISP API key and environment IDs from an Azure Key Vault while disabling events with over 10,000 attributes to avoid exceeding rate limit.
+*   Created an Azure function to send threat indicators to Sentinel every two hours via Python using the MISP API key and environment IDs from an Azure Key Vault while disabling feeds with over 10,000 attributes to avoid exceeding rate limit.
 
 ![Sentinel_Function](Project_Photos/Sentinel_Function.png)
+
+*   After a while, Sentinel shows 282,328 Threat Intelligence Indicators
+
+![Threat_Intelligence](Project_Photos/Threat_Intelligence.png)
